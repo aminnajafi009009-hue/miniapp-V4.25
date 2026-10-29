@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/*": [
+        "./src/shared/ui/*"
+      ],
+      "@layouts/*": [
+        "./src/shared/layouts/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@hooks/*": [
+        "./src/shared/hooks/*"
+      ],
+      "@lib/*": [
+        "./src/shared/lib/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@store/*": [
+        "./src/shared/store/*"
+      ],
+      "@types/*": [
+        "./src/shared/types/*"
+      ],
+      "@utils/*": [
+        "./src/shared/utils/*"
+      ]
+    },
+    "noImplicitAny": false
+  },
+  "include": [
+    "src"
+  ],
+  "references": []
+}

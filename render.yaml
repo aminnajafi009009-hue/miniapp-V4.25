@@ -1,0 +1,11 @@
+# Blueprint نمونه برای Render Static Site (اگر از داشبورد ساختید، همین rewrite را در Redirects/Rewrites اضافه کنید)
+services:
+  - type: web
+    name: businessvpn-miniapp
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
